@@ -13,6 +13,7 @@
 		D70601E721A26F2D00D73ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70601E621A26F2D00D73ECE /* Assets.xcassets */; };
 		D70601EA21A26F2D00D73ECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70601E821A26F2D00D73ECE /* LaunchScreen.storyboard */; };
 		D70601ED21A26F2D00D73ECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70601EC21A26F2D00D73ECE /* main.m */; };
+		D70601F521A26F4400D73ECE /* CheckTouchId.m in Sources */ = {isa = PBXBuildFile; fileRef = D70601F421A26F4400D73ECE /* CheckTouchId.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D70601E921A26F2D00D73ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70601EB21A26F2D00D73ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D70601EC21A26F2D00D73ECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D70601F321A26F4400D73ECE /* CheckTouchId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTouchId.h; sourceTree = "<group>"; };
+		D70601F421A26F4400D73ECE /* CheckTouchId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTouchId.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		D70601DC21A26F2C00D73ECE /* GlobleOneiOSPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				D70601F321A26F4400D73ECE /* CheckTouchId.h */,
+				D70601F421A26F4400D73ECE /* CheckTouchId.m */,
 				D70601DD21A26F2C00D73ECE /* AppDelegate.h */,
 				D70601DE21A26F2C00D73ECE /* AppDelegate.m */,
 				D70601E021A26F2C00D73ECE /* ViewController.h */,
@@ -144,6 +149,7 @@
 				D70601E221A26F2C00D73ECE /* ViewController.m in Sources */,
 				D70601ED21A26F2D00D73ECE /* main.m in Sources */,
 				D70601DF21A26F2C00D73ECE /* AppDelegate.m in Sources */,
+				D70601F521A26F4400D73ECE /* CheckTouchId.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

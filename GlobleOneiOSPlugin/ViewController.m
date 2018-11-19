@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CheckTouchId.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [CheckTouchId startFingerAuthentication:^(BOOL * _Nonnull success, NSString * _Nonnull message) {
+        NSLog(@"%@",message);
+    }];
 }
 
 
