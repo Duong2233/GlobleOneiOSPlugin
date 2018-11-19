@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D706020521A2786600D73ECE /* GlobleOneIOSPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D706020321A2786600D73ECE /* GlobleOneIOSPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D706020D21A2788000D73ECE /* CheckTouchId.h in Headers */ = {isa = PBXBuildFile; fileRef = D706020B21A2788000D73ECE /* CheckTouchId.h */; };
+		D706020E21A2788000D73ECE /* CheckTouchId.m in Sources */ = {isa = PBXBuildFile; fileRef = D706020C21A2788000D73ECE /* CheckTouchId.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D706020021A2786600D73ECE /* GlobleOneIOSPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlobleOneIOSPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D706020321A2786600D73ECE /* GlobleOneIOSPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobleOneIOSPlugin.h; sourceTree = "<group>"; };
 		D706020421A2786600D73ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D706020B21A2788000D73ECE /* CheckTouchId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTouchId.h; sourceTree = "<group>"; };
+		D706020C21A2788000D73ECE /* CheckTouchId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTouchId.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		D706020221A2786600D73ECE /* GlobleOneIOSPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				D706020B21A2788000D73ECE /* CheckTouchId.h */,
+				D706020C21A2788000D73ECE /* CheckTouchId.m */,
 				D706020321A2786600D73ECE /* GlobleOneIOSPlugin.h */,
 				D706020421A2786600D73ECE /* Info.plist */,
 			);
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D706020D21A2788000D73ECE /* CheckTouchId.h in Headers */,
 				D706020521A2786600D73ECE /* GlobleOneIOSPlugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D706020E21A2788000D73ECE /* CheckTouchId.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

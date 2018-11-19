@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CheckTouchId.h"
 //! Project version number for GlobleOneIOSPlugin.
 FOUNDATION_EXPORT double GlobleOneIOSPluginVersionNumber;
 
