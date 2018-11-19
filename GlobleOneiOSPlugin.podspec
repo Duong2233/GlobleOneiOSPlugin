@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "GlobleOneIOSPlugin"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Check Touch ID , Face ID GlobleOneIOSPlugin."
   s.description  = "Check Touch ID , Face ID"
   s.homepage     = "https://github.com/Duong2233/GlobleOneiOSPlugin"
