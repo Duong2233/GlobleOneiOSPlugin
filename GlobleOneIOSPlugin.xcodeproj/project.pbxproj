@@ -10,6 +10,7 @@
 		D706020521A2786600D73ECE /* GlobleOneIOSPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D706020321A2786600D73ECE /* GlobleOneIOSPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D706020D21A2788000D73ECE /* CheckTouchId.h in Headers */ = {isa = PBXBuildFile; fileRef = D706020B21A2788000D73ECE /* CheckTouchId.h */; };
 		D706020E21A2788000D73ECE /* CheckTouchId.m in Sources */ = {isa = PBXBuildFile; fileRef = D706020C21A2788000D73ECE /* CheckTouchId.m */; };
+		D7240EE721A28EC000E4ADEE /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7240EE621A28EC000E4ADEE /* LocalAuthentication.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		D706020421A2786600D73ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D706020B21A2788000D73ECE /* CheckTouchId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTouchId.h; sourceTree = "<group>"; };
 		D706020C21A2788000D73ECE /* CheckTouchId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTouchId.m; sourceTree = "<group>"; };
+		D7240EE621A28EC000E4ADEE /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7240EE721A28EC000E4ADEE /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +39,7 @@
 			children = (
 				D706020221A2786600D73ECE /* GlobleOneIOSPlugin */,
 				D706020121A2786600D73ECE /* Products */,
+				D7240EE521A28EBF00E4ADEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +60,14 @@
 				D706020421A2786600D73ECE /* Info.plist */,
 			);
 			path = GlobleOneIOSPlugin;
+			sourceTree = "<group>";
+		};
+		D7240EE521A28EBF00E4ADEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7240EE621A28EC000E4ADEE /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -7,7 +7,7 @@
 //
 
 #import "CheckTouchId.h"
-#import <LocalAuthentication/LocalAuthentication.h>
+
 
 @implementation CheckTouchId
 
